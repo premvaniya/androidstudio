@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when focused -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#e0f7fa" /> <!-- Light blue background -->
+            <corners android:radius="20dp" />
+            <stroke android:width="2dp" android:color="#26c6da" /> <!-- Cyan border -->
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape>
+            <solid android:color="#ffffff" /> <!-- Default white background -->
+            <corners android:radius="20dp" />
+            <stroke android:width="2dp" android:color="#cccccc" /> <!-- Gray border -->
+        </shape>
+    </item>
+</selector>
